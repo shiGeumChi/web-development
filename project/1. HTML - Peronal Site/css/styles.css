@@ -1,0 +1,124 @@
+
+
+head{
+
+}
+body{
+  background-color: FDFAF6;
+  font-family: "Trirong", serif;
+}
+hr{
+  border-style : none;
+  border-top : 3px dotted black;
+  width :30%;
+  height : 12px;
+}
+h1{
+  margin : 50px auto 20px auto;
+
+  color: #6F69AC;
+  font-size: 3rem;
+  /* 100% = 16px = 1em*/
+
+}
+
+h2{
+  text-align: center;
+  font-size: 2rem;
+}
+
+h3{
+  color : #95DAC1;
+  text-align: center;
+  font-size:1.5rem;
+}
+
+
+table{
+  margin:0 auto;
+}
+
+table td{
+  vertical-align: top;
+}
+
+
+p{
+  text-indent: 15px;
+  line-height: 10px;
+}
+
+ul {
+    list-style-type: none;
+    list-style: none;
+    padding-left: 0px;
+}
+
+
+.top-container {
+  position: relative;
+  width: 100%;
+}
+
+.middle-container{
+  text-align:middle;
+}
+
+.aboutme{
+  position: relative;
+  width: 100%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  /* background-color: #f7ffa3; */
+  color: green;
+  font-style: oblique;
+  border-radius: 50%;
+  font-size: 16px;
+  padding: 16px 32px;
+  font-family: "Trirong", serif;
+}
+
+/* .trr:hover{
+  background-color: #e6d5b8;
+} */
+.tdd:hover{
+  background-color: #FFFEB7;
+}
+
+.skill-row{
+  text-align: center;
+}
+
+.centered{
+  display: block;
+   margin: auto auto;
+}
