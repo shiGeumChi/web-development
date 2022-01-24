@@ -1,2 +1,2 @@
 # web-development
-## HTML, CSS, JavaScript, Node.js
+- HTML, CSS, JavaScript, Node.js
